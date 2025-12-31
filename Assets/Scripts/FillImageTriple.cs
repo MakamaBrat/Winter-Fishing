@@ -16,7 +16,7 @@ public class FillImageTriple : MonoBehaviour
 
     private int currentFill;
     private Coroutine fillCoroutine;
-
+    public AudioSource au;
     private void OnEnable()
     {
         ResetFill();
@@ -29,6 +29,7 @@ public class FillImageTriple : MonoBehaviour
     /// </summary>
     public void PlusOneFill()
     {
+        au.Play();
         if (fillCoroutine != null)
             return;
 
@@ -36,6 +37,7 @@ public class FillImageTriple : MonoBehaviour
             return;
 
         fillCoroutine = StartCoroutine(FillPartRoutine());
+
     }
 
     // ─────────────── CORE ───────────────
