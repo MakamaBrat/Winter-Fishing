@@ -18,8 +18,8 @@ public class BuildScript
         // ========================
         // Пути к файлам сборки
         // ========================
-        string aabPath = "WinterFishing.aab";
-        string apkPath = "WinterFishing.apk";
+        string aabPath = "Winter-Fishing.aab";
+        string apkPath = "Winter-Fishing.apk";
 
         // ========================
         // Настройка Android Signing через переменные окружения
