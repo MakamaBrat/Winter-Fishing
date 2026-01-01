@@ -38,7 +38,7 @@ workflows:
           -batchmode -quit -returnLicense || true
 
     artifacts:
-      - WinterFishing.aab
-      - WinterFishing.apk
+      - wf.aab
+      - wf.apk
       - unity_build.log
       - unity_license.log
