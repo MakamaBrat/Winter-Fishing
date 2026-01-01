@@ -1,6 +1,6 @@
 workflows:
   unity-build:
-    name: Unity Build - Winter-Fishing
+    name: Unity Build - WinterFishing
     instance_type: mac_mini_m2
     max_build_duration: 120
     environment:
@@ -38,7 +38,7 @@ workflows:
           -batchmode -quit -returnLicense || true
 
     artifacts:
-      - Winter-Fishing.aab
-      - Winter-Fishing.apk
+      - WinterFishing.aab
+      - WinterFishing.apk
       - unity_build.log
       - unity_license.log
